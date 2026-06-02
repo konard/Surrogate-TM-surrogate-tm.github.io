@@ -3,7 +3,7 @@ REM Build pdf_sign_inserter.exe from pdf_sign_inserter.py
 REM Requirements: Python 3.8+ with pip
 
 echo Installing required Python packages...
-pip install pymupdf pyinstaller
+pip install pypdf pyinstaller
 
 echo.
 echo Building EXE...

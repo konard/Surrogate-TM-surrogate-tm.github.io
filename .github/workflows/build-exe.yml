@@ -23,7 +23,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pymupdf pyinstaller
+          pip install pypdf pyinstaller
 
       - name: Build EXE with PyInstaller
         working-directory: own/macro
